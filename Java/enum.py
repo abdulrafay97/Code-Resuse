@@ -11,18 +11,20 @@ def get_enum(node, tree, lines, repo_structure):
     if 'enums' not in repo_structure:
         repo_structure['enums'] = []
 
-    class_details = {
-        'name': node.name,
-        'annotations': get_annotations(node.annotations),
-        "modifiers": get_mofifiers(node.modifiers),
-        "implements": [iface.name for iface in node.implements] if node.implements else [],
-        "constants": get_enum_constants(node),  
-        "variables": get_variables(node),
-        "constructors": get_constructors(node, lines, tree),
-        "methods": get_methods(node, lines, tree)
-    }
+    if isinstance(node, javalang.tree.EnumDeclaration):
+        class_details = {
+            'name': node.name,
+            'annotations': get_annotations(node.annotations),
+            "modifiers": get_mofifiers(node.modifiers),
+            "implements": [iface.name for iface in node.implements] if node.implements else [],
+            "constants": get_enum_constants(node),  
+            "variables": get_variables(node),
+            "constructors": get_constructors(node.body.declarations, lines, tree),
+            "methods": get_methods(node.body.declarations, lines, tree),
+            "comment": node.documentation
+        }
 
-    repo_structure['enums'].append(class_details)
+        repo_structure['enums'].append(class_details)
 
 
 def get_enum_constants(node):
@@ -34,4 +36,3 @@ def get_enum_constants(node):
                 "annotations": get_annotations(body_item.annotations)
             })
     return constants
-

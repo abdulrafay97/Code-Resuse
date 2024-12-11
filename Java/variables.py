@@ -17,7 +17,8 @@ def get_variables(node):
                     "name": declarator.name,
                     "type": field_type,
                     "modifiers": get_mofifiers(body_item.modifiers),
-                    "annotations": get_annotations(body_item.annotations)
+                    "annotations": get_annotations(body_item.annotations),
+                    "comment": body_item.documentation
                 }
 
                 variable_lst.append(data)

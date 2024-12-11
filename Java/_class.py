@@ -21,8 +21,9 @@ def get_class(node, tree, lines, repo_structure):
         "implements": [iface.name for iface in node.implements] if node.implements else [],
         "nested_classes": get_nested_classes(node),
         "variables": get_variables(node),
-        "constructors": get_constructors(node, lines, tree),
-        "methods": get_methods(node, lines, tree)
+        "constructors": get_constructors(node.body, lines, tree),
+        "methods": get_methods(node.body, lines, tree),
+        "comment": node.documentation
     }
 
     repo_structure['classes'].append(class_details)

@@ -10,13 +10,12 @@ from .get_line_by_line import get_body_code
 
 
 def get_constructors(node, lines, tree):
-
     constructor_lst = []
-    
-    for body_item in node.body:
-        full_constructor_code = extract_code_without_signature(body_item, lines)
+
+    for body_item in node:
 
         if isinstance(body_item, javalang.tree.ConstructorDeclaration):
+            full_constructor_code = extract_code_without_signature(body_item, lines)
             
             data = {
                 "name": body_item.name,
@@ -25,8 +24,10 @@ def get_constructors(node, lines, tree):
                 "parameters": get_parameters(body_item.parameters), 
                 "used_imports": get_imports_used_in_method(full_constructor_code, tree.imports), 
                 "throws": get_throws(body_item.throws),
-                "constructor_body": get_body_code(full_constructor_code)
+                "constructor_body": get_body_code(full_constructor_code),
+                "comment": body_item.documentation
             }
             constructor_lst.append(data)
     
     return constructor_lst
+    

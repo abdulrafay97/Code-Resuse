@@ -12,11 +12,10 @@ from .get_line_by_line import get_body_code
 def get_methods(node, lines, tree):
     method_lst = []
     
-    for body_item in node.body:
-        
-        full_method_code = extract_code_without_signature(body_item, lines)
+    for body_item in node:
 
         if isinstance(body_item, javalang.tree.MethodDeclaration):
+            full_method_code = extract_code_without_signature(body_item, lines)
             data = {
                 "name": body_item.name,
                 "modifiers": get_mofifiers(body_item.modifiers),
@@ -25,28 +24,9 @@ def get_methods(node, lines, tree):
                 "parameters": get_parameters(body_item.parameters),
                 "throws": get_throws(body_item.throws),
                 "used_imports": get_imports_used_in_method(full_method_code, tree.imports),
-                "method_body": get_body_code(full_method_code)
-            }
-            method_lst.append(data)
-        
-        
-        elif isinstance(body_item, javalang.tree.BlockStatement):
-            if hasattr(body_item, 'modifiers') and "static" in body_item.modifiers:
-                name = "Static Initializer"
-            else:
-                name = "Instance Initializer"
-
-            data = {
-                "name": name,
-                "modifiers": get_mofifiers(getattr(body_item, 'modifiers', [])),
-                "return_type": "void",  
-                "annotations": [],  
-                "parameters": [],  
-                "throws": [],
-                "used_imports": get_imports_used_in_method(full_method_code, tree.imports),
-                "method_body": get_body_code(full_method_code)
+                "method_body": get_body_code(full_method_code),
+                "comment": body_item.documentation
             }
             method_lst.append(data)
     
     return method_lst
-
