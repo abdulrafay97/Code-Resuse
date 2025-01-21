@@ -1,8 +1,22 @@
-Perception and Cognition
+- Perception and Cognition
 https://youtu.be/iwkcWxsljIk
 https://youtu.be/OAQz3AH_tsQ
-Mapping to Visual Variables
+
+- Mapping to Visual Variables
 https://www.youtube.com/watch?v=c-In9cD3kMA
-Multivariate Data Visualization
+
+- Multivariate Data Visualization
 https://youtu.be/w0f_CkGJLvk
 https://youtu.be/hrCaWWhuHGs
+
+- Visualizing Relations
+https://youtu.be/06c2A50ts-8
+https://youtu.be/yTCGWz0Fff4
+
+- Presentation and Interaction
+https://youtu.be/DAuo7LEedr4
+https://youtu.be/Pkpeauahc2g
+
+- Visualizing Time-Varying Data
+https://youtu.be/jResOQUMwGE
+https://youtu.be/L8DeGhW4HQc
