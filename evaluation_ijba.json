@@ -1,0 +1,123 @@
+{
+    "url": "https://github.com/bruinxiong/evaluation_ijba",
+    "repositoryName": "evaluation_ijba",
+    "about": "Those codes can be used to verify our single model's(ResNext152) performance on IJB-A",
+    "topics": [],
+    "languages": {
+        "MATLAB": "100.0%"
+    },
+    "author": [
+        {
+            "username": "bruinxiong",
+            "user_url": "https://github.com/bruinxiong",
+            "name": "Xiong Lin",
+            "works_at": "Geely Auto, NingBo, China",
+            "blog": "https://bruinxiong.github.io/xionglin.github.io/",
+            "lives_in": "China",
+            "email": "bruinxiongmac@gmail.com",
+            "bio": "Ph.D degree from Xidian Univ.\r\nAI Algorithm Research Expert of Geely Auto Research Institute in NingBo from Sep-2024 to Now.",
+            "twitter_username": null,
+            "user_type": "User",
+            "followers": 182,
+            "created_at": "2013-01-24",
+            "updated_at": "2025-01-26",
+            "public_repos": 2140
+        }
+    ],
+    "stars": [
+        {
+            "user_name": "zouliangyu",
+            "user_url": "https://github.com/zouliangyu"
+        },
+        {
+            "user_name": "kli-casia",
+            "user_url": "https://github.com/kli-casia"
+        },
+        {
+            "user_name": "hjy1312",
+            "user_url": "https://github.com/hjy1312"
+        },
+        {
+            "user_name": "Mukosame",
+            "user_url": "https://github.com/Mukosame"
+        },
+        {
+            "user_name": "njtuzzy",
+            "user_url": "https://github.com/njtuzzy"
+        },
+        {
+            "user_name": "stormyoung",
+            "user_url": "https://github.com/stormyoung"
+        },
+        {
+            "user_name": "ZJYang-SZU",
+            "user_url": "https://github.com/ZJYang-SZU"
+        },
+        {
+            "user_name": "yurinishikawa",
+            "user_url": "https://github.com/yurinishikawa"
+        }
+    ],
+    "watchers": [
+        {
+            "user_name": "bruinxiong",
+            "user_url": "https://github.com/bruinxiong"
+        },
+        {
+            "user_name": "paper2code-bot",
+            "user_url": "https://github.com/paper2code-bot"
+        },
+        {
+            "user_name": "jhcloos",
+            "user_url": "https://github.com/jhcloos"
+        }
+    ],
+    "forks": [
+        {
+            "user_name": "braveapple",
+            "user_url": "https://github.com/braveapple",
+            "repo_forked_as": "braveapple/Evaluation_IJBA",
+            "forked_repo_url": "https://github.com/braveapple/Evaluation_IJBA",
+            "created_at": "2018-07-10",
+            "updated_at": "2018-07-10",
+            "stargzers_count": 0,
+            "watchers_count": 0,
+            "forks_count": 0,
+            "open_issues_count": 0
+        }
+    ],
+    "contributors": [
+        {
+            "user_name": "bruinxiong",
+            "user_url": "https://github.com/bruinxiong",
+            "no_of_commits": 13
+        }
+    ],
+    "issues": [
+        {
+            "issue_id": 1,
+            "issue_title": "How can I used my trained model to do evaluatuin_IJBA???",
+            "issue_url": "https://github.com/bruinxiong/Evaluation_IJBA/issues/1",
+            "issue_state": "open",
+            "issue_labels": [],
+            "issue_author": "xiaosuzhang",
+            "issue_author_type": "User",
+            "issue_author_url": "https://github.com/xiaosuzhang",
+            "issue_assigned_to": [],
+            "issue_created_at": "2018-07-10",
+            "issue_updated_at": "2018-07-10",
+            "issue_comments_count": 0,
+            "reactions": {
+                "total_count": 0,
+                "+1": 0,
+                "-1": 0,
+                "laugh": 0,
+                "hooray": 0,
+                "confused": 0,
+                "heart": 0,
+                "rocket": 0,
+                "eyes": 0
+            }
+        }
+    ]
+}
