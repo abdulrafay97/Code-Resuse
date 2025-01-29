@@ -1,0 +1,65 @@
+{
+    "url": "https://github.com/trust-nlp/coi-psychotherapy",
+    "repositoryName": "coi-psychotherapy",
+    "about": "",
+    "topics": [],
+    "languages": {
+        "Python": "100.0%"
+    },
+    "author": [
+        {
+            "username": "trust-nlp",
+            "user_url": "https://github.com/trust-nlp",
+            "name": "Trustworthy-NLP-Memphis",
+            "works_at": null,
+            "blog": "",
+            "lives_in": "United States of America",
+            "email": "xiaolei.huang@memphis.edu",
+            "bio": "Trustworthy NLP Lab Account",
+            "twitter_username": null,
+            "user_type": "Organization",
+            "followers": 5,
+            "created_at": "2023-08-24",
+            "updated_at": "2025-01-20",
+            "public_repos": 4
+        }
+    ],
+    "stars": [
+        {
+            "user_name": "BaHuy15",
+            "user_url": "https://github.com/BaHuy15"
+        },
+        {
+            "user_name": "hurricanetx",
+            "user_url": "https://github.com/hurricanetx"
+        },
+        {
+            "user_name": "deftlion",
+            "user_url": "https://github.com/deftlion"
+        },
+        {
+            "user_name": "ngadoq",
+            "user_url": "https://github.com/ngadoq"
+        },
+        {
+            "user_name": "JeffCarpenter",
+            "user_url": "https://github.com/JeffCarpenter"
+        }
+    ],
+    "watchers": [
+        {
+            "user_name": "xiaoleihuang",
+            "user_url": "https://github.com/xiaoleihuang"
+        }
+    ],
+    "forks": [],
+    "contributors": [
+        {
+            "user_name": "CUCHon",
+            "user_url": "https://github.com/CUCHon",
+            "no_of_commits": 6
+        }
+    ],
+    "issues": [],
+    "ReadMe": "# CoI-Psychotherapy\n\nThis is the official implementation of the IEEE ICHI 2024 paper: \n\n**Chain-of-Interaction: Enhancing Large Language Models for Psychiatric Behavior Understanding by Dyadic Contexts**\n\n## Dependence Installation\n\n```bash\ngit clone git@github.com:trust-nlp/CoI-Psychotherapy.git\nconda create -n [YOUR_ENV] python=3.10\nconda activate [YOUR_ENV]\ncd CoI-Psychotherapy\npip install -r requirements.txt\n```\n## Data Preparation\n\nPlease refer to\u00a0[data/README.md](https://github.com/hiyouga/LLaMA-Factory/blob/main/data/README.md)\u00a0for building your own dataset.\n\nAnd modify your dataset path in [src/llmtuner/eval/MMCBevaluator.py](https://github.com/trust-nlp/CoI-Psychotherapy/blob/main/src/llmtuner/eval/MMCBevaluator.py).\n\n## Evaluate frozen LLMs\n\n```bash\nCUDA_VISIBLE_DEVICES=0 python src/evaluate.py \\\n    --model_name_or_path path_to_LLM \\\n    --template vanilla \\\n    --task mmlu \\\n    --split test \\\n    --lang [Prompting method] \\\n    --n_shot 0 \\\n    --batch_size 4\n```\n## Citation\nIf this work is helpful, please kindly cite as:\n\n```bash\n@article{han2024chainofinteraction,\n      title={Chain-of-Interaction: Enhancing Large Language Models for Psychiatric Behavior Understanding by Dyadic Contexts}, \n      author={Guangzeng Han and Weisi Liu and Xiaolei Huang and Brian Borsari},\n      journal={arXiv preprint arXiv:2403.13786},\n      year={2024},\n      eprint={2403.13786},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2403.13786}\n}\n```\n\n## Acknowledgements\n\nThis project is a fork of [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). We are grateful for their work and contributions to the LLM community. \nThis fork aims to evaluate the performance of multiple prompting methods for automated coding of motivational interviews.\nPlease visit the original repository to learn more about the project and support the original creators.\n\n\n"
+}

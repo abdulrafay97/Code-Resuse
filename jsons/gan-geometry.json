@@ -1,0 +1,489 @@
+{
+    "url": "https://github.com/animadversio/gan-geometry",
+    "repositoryName": "gan-geometry",
+    "about": "Official Code for ICLR2021 paper \"A Geometric Analysis of Deep Generative Image Models and Its Applications\"",
+    "topics": [
+        "gan",
+        "interpretability",
+        "geometric-analysis"
+    ],
+    "languages": {
+        "Jupyter Notebook": "95.6%",
+        "Python": "4.4%"
+    },
+    "author": [
+        {
+            "username": "animadversio",
+            "user_url": "https://github.com/Animadversio",
+            "name": "Binxu",
+            "works_at": "Kempner Institute at Harvard",
+            "blog": "https://animadversio.github.io",
+            "lives_in": "Boston, MA",
+            "email": "binxu_wang@hms.harvard.edu",
+            "bio": "Research Fellow @KempnerInstitute  @Harvard, PhD in System Neuro @PonceLab. Generative models, optimization and geometry to understand brain",
+            "twitter_username": "WangBinxu",
+            "user_type": "User",
+            "followers": 133,
+            "created_at": "2017-05-12",
+            "updated_at": "2025-01-13",
+            "public_repos": 140
+        }
+    ],
+    "stars": [
+        {
+            "user_name": "YunyiShen",
+            "user_url": "https://github.com/YunyiShen"
+        },
+        {
+            "user_name": "clearlovewl",
+            "user_url": "https://github.com/clearlovewl"
+        },
+        {
+            "user_name": "neermat-iitk",
+            "user_url": "https://github.com/neermat-iitk"
+        },
+        {
+            "user_name": "aydao",
+            "user_url": "https://github.com/aydao"
+        },
+        {
+            "user_name": "koke2c95",
+            "user_url": "https://github.com/koke2c95"
+        },
+        {
+            "user_name": "ChengBinJin",
+            "user_url": "https://github.com/ChengBinJin"
+        },
+        {
+            "user_name": "balcilar",
+            "user_url": "https://github.com/balcilar"
+        },
+        {
+            "user_name": "KAISER1997",
+            "user_url": "https://github.com/KAISER1997"
+        },
+        {
+            "user_name": "suminmin",
+            "user_url": "https://github.com/suminmin"
+        },
+        {
+            "user_name": "zhujiapeng",
+            "user_url": "https://github.com/zhujiapeng"
+        },
+        {
+            "user_name": "zeyuyun1",
+            "user_url": "https://github.com/zeyuyun1"
+        },
+        {
+            "user_name": "hyungkwonko",
+            "user_url": "https://github.com/hyungkwonko"
+        },
+        {
+            "user_name": "ZhanqiZhang66",
+            "user_url": "https://github.com/ZhanqiZhang66"
+        },
+        {
+            "user_name": "zhengdao-chen",
+            "user_url": "https://github.com/zhengdao-chen"
+        },
+        {
+            "user_name": "fly51fly",
+            "user_url": "https://github.com/fly51fly"
+        },
+        {
+            "user_name": "shty32",
+            "user_url": "https://github.com/shty32"
+        },
+        {
+            "user_name": "amadeuzou",
+            "user_url": "https://github.com/amadeuzou"
+        },
+        {
+            "user_name": "leal2020",
+            "user_url": "https://github.com/leal2020"
+        },
+        {
+            "user_name": "Vincentqyw",
+            "user_url": "https://github.com/Vincentqyw"
+        },
+        {
+            "user_name": "ggsonic",
+            "user_url": "https://github.com/ggsonic"
+        },
+        {
+            "user_name": "bryandlee",
+            "user_url": "https://github.com/bryandlee"
+        },
+        {
+            "user_name": "gisbi-kim",
+            "user_url": "https://github.com/gisbi-kim"
+        },
+        {
+            "user_name": "ForrestPi",
+            "user_url": "https://github.com/ForrestPi"
+        },
+        {
+            "user_name": "shoutOutYangJie",
+            "user_url": "https://github.com/shoutOutYangJie"
+        },
+        {
+            "user_name": "altairkerbo",
+            "user_url": "https://github.com/altairkerbo"
+        },
+        {
+            "user_name": "vjirgale",
+            "user_url": "https://github.com/vjirgale"
+        },
+        {
+            "user_name": "wonjongg",
+            "user_url": "https://github.com/wonjongg"
+        },
+        {
+            "user_name": "Germandev55",
+            "user_url": "https://github.com/Germandev55"
+        },
+        {
+            "user_name": "Victarry",
+            "user_url": "https://github.com/Victarry"
+        },
+        {
+            "user_name": "jweihe",
+            "user_url": "https://github.com/jweihe"
+        },
+        {
+            "user_name": "csyxwei",
+            "user_url": "https://github.com/csyxwei"
+        },
+        {
+            "user_name": "Koncopd",
+            "user_url": "https://github.com/Koncopd"
+        },
+        {
+            "user_name": "jiaoyining",
+            "user_url": "https://github.com/jiaoyining"
+        },
+        {
+            "user_name": "GiorgiaD",
+            "user_url": "https://github.com/GiorgiaD"
+        },
+        {
+            "user_name": "saemi410",
+            "user_url": "https://github.com/saemi410"
+        },
+        {
+            "user_name": "McFredward",
+            "user_url": "https://github.com/McFredward"
+        },
+        {
+            "user_name": "cl3789",
+            "user_url": "https://github.com/cl3789"
+        },
+        {
+            "user_name": "cxmscb",
+            "user_url": "https://github.com/cxmscb"
+        },
+        {
+            "user_name": "jbergq",
+            "user_url": "https://github.com/jbergq"
+        },
+        {
+            "user_name": "alaradirik",
+            "user_url": "https://github.com/alaradirik"
+        },
+        {
+            "user_name": "HarshaSatyavardhan",
+            "user_url": "https://github.com/HarshaSatyavardhan"
+        },
+        {
+            "user_name": "sophiaas",
+            "user_url": "https://github.com/sophiaas"
+        },
+        {
+            "user_name": "LiJialin001",
+            "user_url": "https://github.com/LiJialin001"
+        },
+        {
+            "user_name": "zelaki",
+            "user_url": "https://github.com/zelaki"
+        },
+        {
+            "user_name": "cocoaaa",
+            "user_url": "https://github.com/cocoaaa"
+        },
+        {
+            "user_name": "SAMUSENPS",
+            "user_url": "https://github.com/SAMUSENPS"
+        },
+        {
+            "user_name": "hujinghaoabcd",
+            "user_url": "https://github.com/hujinghaoabcd"
+        }
+    ],
+    "watchers": [
+        {
+            "user_name": "ForrestPi",
+            "user_url": "https://github.com/ForrestPi"
+        },
+        {
+            "user_name": "Animadversio",
+            "user_url": "https://github.com/Animadversio"
+        },
+        {
+            "user_name": "jhcloos",
+            "user_url": "https://github.com/jhcloos"
+        }
+    ],
+    "forks": [
+        {
+            "user_name": "BossunWang",
+            "user_url": "https://github.com/BossunWang",
+            "repo_forked_as": "BossunWang/GAN-Geometry_develop",
+            "forked_repo_url": "https://github.com/BossunWang/GAN-Geometry_develop",
+            "created_at": "2023-04-14",
+            "updated_at": "2023-04-14",
+            "stargzers_count": 0,
+            "watchers_count": 0,
+            "forks_count": 0,
+            "open_issues_count": 0
+        },
+        {
+            "user_name": "jweihe",
+            "user_url": "https://github.com/jweihe",
+            "repo_forked_as": "jweihe/GAN-Geometry",
+            "forked_repo_url": "https://github.com/jweihe/GAN-Geometry",
+            "created_at": "2022-04-28",
+            "updated_at": "2022-04-27",
+            "stargzers_count": 0,
+            "watchers_count": 0,
+            "forks_count": 0,
+            "open_issues_count": 0
+        },
+        {
+            "user_name": "aabate11",
+            "user_url": "https://github.com/aabate11",
+            "repo_forked_as": "aabate11/GAN-Geometry",
+            "forked_repo_url": "https://github.com/aabate11/GAN-Geometry",
+            "created_at": "2021-12-31",
+            "updated_at": "2022-01-06",
+            "stargzers_count": 0,
+            "watchers_count": 0,
+            "forks_count": 0,
+            "open_issues_count": 0
+        },
+        {
+            "user_name": "ucalyptus2",
+            "user_url": "https://github.com/ucalyptus2",
+            "repo_forked_as": "ucalyptus2/GAN-Geometry",
+            "forked_repo_url": "https://github.com/ucalyptus2/GAN-Geometry",
+            "created_at": "2021-03-11",
+            "updated_at": "2021-10-07",
+            "stargzers_count": 0,
+            "watchers_count": 0,
+            "forks_count": 0,
+            "open_issues_count": 0
+        }
+    ],
+    "contributors": [
+        {
+            "user_name": "Animadversio",
+            "user_url": "https://github.com/Animadversio",
+            "no_of_commits": 23
+        }
+    ],
+    "issues": [
+        {
+            "issue_id": 7,
+            "issue_title": "Question about calculate full hessian",
+            "issue_url": "https://github.com/Animadversio/GAN-Geometry/issues/7",
+            "issue_state": "closed",
+            "issue_labels": [
+                {
+                    "label_name": "question",
+                    "label_description": "Question and Answer for this project"
+                }
+            ],
+            "issue_author": "BossunWang",
+            "issue_author_type": "User",
+            "issue_author_url": "https://github.com/BossunWang",
+            "issue_assigned_to": [
+                {
+                    "assignee_name": "Animadversio",
+                    "assignee_url": "https://github.com/Animadversio",
+                    "assignee_type": "User"
+                }
+            ],
+            "issue_created_at": "2023-04-14",
+            "issue_updated_at": "2023-05-19",
+            "issue_comments_count": 1,
+            "reactions": {
+                "total_count": 1,
+                "+1": 0,
+                "-1": 0,
+                "laugh": 0,
+                "hooray": 0,
+                "confused": 0,
+                "heart": 0,
+                "rocket": 0,
+                "eyes": 1
+            }
+        },
+        {
+            "issue_id": 6,
+            "issue_title": "Questions about the geometric analysis w.r.t. ReLU activation.",
+            "issue_url": "https://github.com/Animadversio/GAN-Geometry/issues/6",
+            "issue_state": "closed",
+            "issue_labels": [
+                {
+                    "label_name": "question",
+                    "label_description": "Question and Answer for this project"
+                }
+            ],
+            "issue_author": "seunghyukcho",
+            "issue_author_type": "User",
+            "issue_author_url": "https://github.com/seunghyukcho",
+            "issue_assigned_to": [
+                {
+                    "assignee_name": "Animadversio",
+                    "assignee_url": "https://github.com/Animadversio",
+                    "assignee_type": "User"
+                }
+            ],
+            "issue_created_at": "2022-08-24",
+            "issue_updated_at": "2023-08-16",
+            "issue_comments_count": 1,
+            "reactions": {
+                "total_count": 0,
+                "+1": 0,
+                "-1": 0,
+                "laugh": 0,
+                "hooray": 0,
+                "confused": 0,
+                "heart": 0,
+                "rocket": 0,
+                "eyes": 0
+            }
+        },
+        {
+            "issue_id": 5,
+            "issue_title": "Question about `perturb_vec` in the calculation of GANHVPOperator",
+            "issue_url": "https://github.com/Animadversio/GAN-Geometry/issues/5",
+            "issue_state": "closed",
+            "issue_labels": [
+                {
+                    "label_name": "question",
+                    "label_description": "Question and Answer for this project"
+                }
+            ],
+            "issue_author": "Victarry",
+            "issue_author_type": "User",
+            "issue_author_url": "https://github.com/Victarry",
+            "issue_assigned_to": [
+                {
+                    "assignee_name": "Animadversio",
+                    "assignee_url": "https://github.com/Animadversio",
+                    "assignee_type": "User"
+                }
+            ],
+            "issue_created_at": "2022-05-06",
+            "issue_updated_at": "2023-03-31",
+            "issue_comments_count": 2,
+            "reactions": {
+                "total_count": 2,
+                "+1": 1,
+                "-1": 0,
+                "laugh": 0,
+                "hooray": 0,
+                "confused": 0,
+                "heart": 0,
+                "rocket": 0,
+                "eyes": 1
+            }
+        },
+        {
+            "issue_id": 4,
+            "issue_title": "When I use GANForwardHVPOperator, I find some errors reported",
+            "issue_url": "https://github.com/Animadversio/GAN-Geometry/issues/4",
+            "issue_state": "closed",
+            "issue_labels": [],
+            "issue_author": "jweihe",
+            "issue_author_type": "User",
+            "issue_author_url": "https://github.com/jweihe",
+            "issue_assigned_to": [],
+            "issue_created_at": "2022-04-30",
+            "issue_updated_at": "2022-05-01",
+            "issue_comments_count": 3,
+            "reactions": {
+                "total_count": 0,
+                "+1": 0,
+                "-1": 0,
+                "laugh": 0,
+                "hooray": 0,
+                "confused": 0,
+                "heart": 0,
+                "rocket": 0,
+                "eyes": 0
+            }
+        },
+        {
+            "issue_id": 2,
+            "issue_title": "A question about equation 2 in the paper",
+            "issue_url": "https://github.com/Animadversio/GAN-Geometry/issues/2",
+            "issue_state": "closed",
+            "issue_labels": [
+                {
+                    "label_name": "question",
+                    "label_description": "Question and Answer for this project"
+                }
+            ],
+            "issue_author": "hallwaypzh",
+            "issue_author_type": "User",
+            "issue_author_url": "https://github.com/hallwaypzh",
+            "issue_assigned_to": [],
+            "issue_created_at": "2021-07-19",
+            "issue_updated_at": "2023-03-31",
+            "issue_comments_count": 2,
+            "reactions": {
+                "total_count": 0,
+                "+1": 0,
+                "-1": 0,
+                "laugh": 0,
+                "hooray": 0,
+                "confused": 0,
+                "heart": 0,
+                "rocket": 0,
+                "eyes": 0
+            }
+        },
+        {
+            "issue_id": 1,
+            "issue_title": "[Question] Is Hessian really the metric tensor?",
+            "issue_url": "https://github.com/Animadversio/GAN-Geometry/issues/1",
+            "issue_state": "closed",
+            "issue_labels": [
+                {
+                    "label_name": "question",
+                    "label_description": "Question and Answer for this project"
+                }
+            ],
+            "issue_author": "ucalyptus2",
+            "issue_author_type": "User",
+            "issue_author_url": "https://github.com/ucalyptus2",
+            "issue_assigned_to": [],
+            "issue_created_at": "2021-07-07",
+            "issue_updated_at": "2023-03-31",
+            "issue_comments_count": 5,
+            "reactions": {
+                "total_count": 0,
+                "+1": 0,
+                "-1": 0,
+                "laugh": 0,
+                "hooray": 0,
+                "confused": 0,
+                "heart": 0,
+                "rocket": 0,
+                "eyes": 0
+            }
+        }
+    ],
+    "ReadMe": "# \"A Geometric Analysis of Deep Generative Image Models and Its Applications\" Official Code \n \nThis repo provides generic toolkits for **analyzing the latent geometry of generative models**, and using the goemetric information to improve on various applications like GAN interpretability, inversion, optimization in latent space. \n\nSpecifically, it can compute the Riemannian metric tensor of the latent space of the generator, pulling back certain image distance function (e.g. LPIPS). Then the eigen structure of the metric tensor will yield useful information about the interpretable axes (usually in the top eigen space), and efficient ways to explore in the latent space.  \n\nA work published in ICLR 2021. \n\n* [Open Review](https://openreview.net/forum?id=GH7QRzUDdXG)\n* [Arxiv](https://arxiv.org/abs/2101.06006)\n\n![](img/Poster_thumbnail.png)\n\n## Basic Usage\n\n```python\nimport lpips\nimport numpy as np\nfrom core.GAN_utils import BigGAN_wrapper, loadBigGAN\nfrom core import hessian_compute\nfrom core.hessian_axis_visualize import vis_eigen_action, vis_eigen_explore, vis_distance_curve\n# Define a image distance metric\nImDist = lpips.LPIPS(net=\"squeeze\", )\n# Define and wrap up a generator\nBGAN = loadBigGAN()  # Default to be \"biggan-deep-256\" in `pytorch-pretrained-BigGAN`\nBGAN.cuda().eval()\nBGAN.requires_grad_(False)\nG = BigGAN_wrapper(BGAN)\nfeat = G.sample_vector(device=\"cuda\", class_id=145) # class King Penguin\n# Compute the local Riemannian metric\neigval, eigvec, H = hessian_compute(G, feat, ImDist, hessian_method=\"BackwardIter\", cutoff=20)\n# Visualize the axes\nrefvect = feat.cpu().numpy()\nmontage, _,  = vis_eigen_explore(refvect, eigvec, eigval, G, eiglist=[1,2,4,8,16], transpose=False,\n                                maxdist=0.5, rown=7, sphere=False, save=False)\ndistmat, _, _ = vis_distance_curve(refvect, eigvec, eigval, G, ImDist, eiglist=[1,2,4,8,16],\n                                    maxdist=0.5, rown=5, sphere=False, distrown=15)\n# Visualize the axes applied to other reference images.  \nref_codes = np.random.randn(5, 128)\nmontage2, _ = vis_eigen_action(eigvec, ref_codes, G, transpose=False, \n                                maxdist=0.5, rown=7, sphere=False, save=False)\n```\nMore examples in our tutorial notebooks, which walk you through a toy version of our figures.  \n\n## How It Works?\nThe metric tensor `H` of the image manifold defined by generator `G` is the Hessian of the squared distance function `d^2` on it. In our case the squared distance function is L2 or LPIPS distance. \n\n<img src=\"https://render.githubusercontent.com/render/math?math=H(z_0) = \\partial_z^2 d^2(G(z_0),G(z))\">\n\nSo the work comes down to computing Hessian or finding its low rank approximation (i.e. top eigenvalue and eigenvectors). Direct method is to create computational graph towards gradient (see [Doc](https://pytorch.org/docs/stable/autograd.html#torch.autograd.grad)), and then perform 2nd order backpropagation for each entry of the gradient to get the hessian (see [`get_full_hessian`](core/GAN_hvp_operator.py)). \n\nA way to compute the low rank approximation of Hessian matrix is to apply the Lanczos iteration eigen solver on the Hessian as a linear operator (i.e. hessian vector product (HVP) operator). In this manner, we will obtain the top eigen pairs without constructing the whole Hessian matrix. The Hessian vector product could be computed with backward auto differentiation, or forward finite differencing. \n\n<img src=\"https://render.githubusercontent.com/render/math?math=HVP:v\\mapsto Hv = \\partial_z(v^Tg(z)) = v^T\\partial_z g(z) \\approx \\frac{g(z%2B \\epsilon v) - g(z-\\epsilon v)}{2\\|\\epsilon v\\|}\">\n\nSee [GAN_hvp_operator](core/GAN_hvp_operator.py) for more info. \n\n## Structure of Repo\n`core` contains code for analyzing computed Hessian information and generate figure and statistics from it. \n* `GAN_hessian_compute` implement the core API for compute metric tensor given a generator and a distance metric. It depends on \n    * `GAN_hvp_operator` implement the Hessian Vector Product operator based on auto-differentiation and finite differencing.  \n    * `lanczos_generalized` link the HVP operator to the ARPACK eigenvalue solver in `scipy`.\n* `GAN_utils` provides loader and wrapper of pretrained generators. You may add more to it for your custom GAN. \n* `hessian_analysis_tools` provides handy functions to analyze and visualize the geometry after computing the metric tensors.\n* `hessian_axis_visualize` provides functions to visualize the image transformations that the axes represents  \n\n## Key Dependency\n\n* `pytorch` (we have tested 1.3.1 and 1.5.0)\n* `scipy` \n* `CUDA` (we have tested 10.1)\n* [`hessian-eigenthings`](https://github.com/noahgolmant/pytorch-hessian-eigenthings). Use this \n`pip install --upgrade git+https://github.com/noahgolmant/pytorch-hessian-eigenthings.git@master#egg=hessian-eigenthings`\n* [`LPIPS`](https://github.com/richzhang/PerceptualSimilarity), `pip install lpips`\n\nCode has been developed and tested on a GTX 1060 GPU (6GB). \n\n### Obtain pre-trained GANs\nOur algorithm is a generic analysis that could be applied to generative models. To repreoduce the results in the paper, you need to obtain some pre-trained GANs. \n\n* [DCGAN](https://pytorch.org/hub/facebookresearch_pytorch-gan-zoo_dcgan/) from pytorch GAN zoo. Trained on 64 by 64 pixel fashion dataset. It has a 120d latent space, using Gaussian as latent space distribution. \n* [Progressive Growing GAN (PGGAN)](https://pytorch.org/hub/facebookresearch_pytorch-gan-zoo_pgan/) from pytorch GAN zoo. We use the 256 pixel version. It's trained on celebrity faces dataset (CelebA). It has a 512d latent space, using Gaussian as latent space distribution. \n* [DeePSim/FC6GAN](https://lmb.informatik.uni-freiburg.de/people/dosovits/code.html). This model is based on DCGAN architechture. We translated it into pytorch, included the model definition in the script and hosted the weights. \n* [BigGAN](https://github.com/huggingface/pytorch-pretrained-BigGAN). From HuggingFace. We used 256 pix version in the paper, with 128d noise vector input and 128d class embedding input. \n* [BigBiGAN](https://tfhub.dev/deepmind/bigbigan-resnet50/1). Weights obtained from DeepMind official tf version. The generator could be translated into pytorch. We used bigbigan-resnet50 version, with 120d latent space and 128 pix output.  \n* [StyleGAN](https://github.com/rosinality/style-based-gan-pytorch). We used 256 pix version, with 512d Z and W latent space. \n* [StyleGAN2](https://github.com/rosinality/stylegan2-pytorch). We translated the weights of pretrained models from [this list](https://pythonawesome.com/a-collection-of-pre-trained-stylegan-2-models-to-download), to pytorch. All with 512d Z and W latent space, with various spatial resolution. \n* [WaveGAN](https://github.com/mostafaelaraby/wavegan-pytorch/). An audio generating GAN. We trained it ourselves using piano dataset. \n\nTo analyze your own GAN, follow this tutorial to come [Tutorial_Custom_Metric_and_GANs](Tutorial_Custom_Metric_and_GANs.ipynb)\n\n\n## Citing this Work\n```bibtex\n@inproceedings{\nwang2021aGANGeom,\ntitle={A Geometric Analysis of Deep Generative Image Models and Its Applications},\nauthor={Binxu Wang and Carlos R Ponce},\nbooktitle={International Conference on Learning Representations},\nyear={2021},\nurl={https://openreview.net/forum?id=GH7QRzUDdXG}\n}\n```"
+}
